@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    background-color: green;
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: black;
+}
+.container_menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+}
+.item_menu{
+    list-style: none;
+}
+.link_menu{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+}
+
+

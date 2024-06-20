@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul class="container_menu">
+            <li class="item_menu"><a  href="../Exe001/index.html" class="link_menu">Exe001</a></li>
+            <li class="item_menu"><a href="../Exe002/index.html" class="link_menu">Exe002</a></li>
+            <li class="item_menu"><a href="../Exe003/index.html" class="link_menu">Exe003</a></li>
+            <li class="item_menu"><a href="../Exe004/index.html" class="link_menu">Exe004</a></li>
+            <li class="item_menu"><a href="../Exe005/index.html" class="link_menu">Exe005</a></li>
+            <li class="item_menu"><a href="../Exe006/index.html" class="link_menu">Exe006</a></li>
+    
+    
+        </ul>
+        </nav> 
+    <h1>Aula pratica-2</h1>
+    <a href="rodape.html"> Ir ao rodape </a>
+
+    <p class="cor">
+        Neste exercicio veremos a importancia das listas, como elas facilitam a leitura, organizam o conteúdo e
+        simplificam a apresentação dos itens. Vamos la!
+        Paremos para pensar um pouco: quantas listas você faz na sua vida? Eu, sinceramente não vivo sem listas: a lista
+        do supermercado, lista de tarefas, a lista de chamadas, listas dos conteúdos a trabalhar cada semestre, lista de
+        cursos que quero fazer, lista de cursos que quero produzir. Acho que já deu pra entender, não é? Para quem da
+        aulas, listas também são muito úteis. Elas simplificam e sintetizam o conteúdo a ser passado e faz a demarcação
+        de cada item para facilitar a visualização.
+        Por conta disso, a linguagem HTML disponibiliza vários tipos de lista para produzirmos nosso conteúdo e deixá-lo
+        mais claro e eficiente.
+    </p>
+
+    <img src="img/img-jornal.jpg">
+
+    <h2>Listas ordenadas</h2>
+    <p>A HTML chama de ordered lists todas aquelas listas onde a ordem dos itens é algo muito importante. Um
+        passo-a-passo para criar um bolo, uma lista de aprovados no exame e uma lista com os carros mais caros do mundo
+        são exemplos de listas ordenadas.</p>
+    A tag ol possui um parâmetro type, onde configuramos o tipo de marcador da lista atual. As opções de valores para
+    esse parâmetro são:</p>
+    <ol>
+        <li>Valor padrão. Cria listas numeradas. Ex: 1, 2, 3, 4, … </li>
+        <li>Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D, … </li>
+        <li>Cria listas alfabéticas em minúsculas. Ex: a, b, c, d, … </li>
+        <li>Cria listas com algarismos romanos em maiúsculas. Ex: I, II, III, IV, … </li>
+        <li>Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv, … </li>
+
+    </ol>
+    <p>Você também pode indicar o início da contagem usando o parâmetro start. Por exemplo, a tag ol type=“I” start=“5”
+        vai gerar itens numerados como V, VI, VII, VIII, IX, …</p>
+
+    <h2>Listas nao ordenada </h2>
+    <p>Se você compreendeu a criação de listas ordenadas, com certeza vai entender as unordered lists, também chamadas
+        de listas com marcadores, que são aquelas onde a ordem dos itens não influenciará no significado da lista. Ela é
+        apenas uma ótima maneira para organizar os itens que não apresentam uma
+        classificação necessariamente. Para criar uma unordered list, vamos usar a tag para delimitar a lista e a tag
+        para criar cada um dos seus itens internos.
+
+    <p>O marcador padrão é a bolinha preta totalmente preenchida (circle), mas existe a opção de configurar a
+        propriedade type da tag com os seguintes valores: </p>
+
+    <ul>
+        <li>disc - padrão. Uma bola preta totalmente pintada </li>
+        <li>circle - Uma bola com uma borda preta e sem preenchimento </li>
+        <li>square - Um pequeno quadrado preto totalmente pintado </li>
+
+
+
+    </ul>
+
+    <h2>Misturando as Listas</h2>
+    <p>Podemos também criar listas mistas, configurando listas dentro de outras listas. Exemplo:</p>
+
+    <h3>Lista dos Meus Jogos Favoritos</h3>
+
+
+    <ul>
+
+        <li>Nintendo: </li>
+
+        <ol>
+            <li>Mario Bros</li>
+
+            <ul type="square">
+                <li>Super Mario Bros 3</li>
+                <li>Mario Lost Levels</li>
+            </ul>
+
+            <li>Ninja Gaiden</li>
+
+            <ul type="square">
+                <li>Ninja Gaiden III</li>
+            </ul>
+
+        </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <li>Super Nintendo</li>
+
+        <ol>
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+
+            <ul type="square">
+                <li>Donkey Kong Country III III</li>
+                <li>Diddys Kong Quest</li>
+            </ul>
+        </ol>
+
+
+
+        <li>PlayStation I:</li>
+
+
+        <ol>
+            <li>Final Fantasy</li>
+            <ul type="square">
+                <li>Final Fantasy VII</li>
+                <li>Final Fantasy IX</li>
+            </ul>
+
+            <li>Ninja Gaiden</li>
+
+            <ul>
+                <li type="square">Ninja Gaiden III</li>
+            </ul>
+
+
+
+
+        </ol>
+
+
+
+    </ul>
+
+
+    <dl>
+
+
+        <dt class="cor_1">HTML </dt>
+        <dd>E uma linguagem de marcacao utilizada para criar conteudos em websites.</dd>
+
+
+
+    </dl>
+
+    <picture>
+        <source media="(max-width:512px)" srcset="img/irina-blok-pq.jpg" type="image/jpg">
+        <source media="(max-width:700px )" srcset="img/img-jornal.jpg">
+        <img src="img/irina-blok.jpg" alt="imagem tamanho normal">
+
+
+    </picture>
+        <br>
+       <br>
+       <audio preload="metadata" controls autoplay>
+            <source src="AUDIO/AUDIO1.mp3" type="audio/mp3">
+
+        
+
+        </audio>
+
+        <br>
+        <br>
+        <img src="img/irina-blok-pq.jpg" alt="Imagem de Jornalista">
+
+        <br>
+        <br>
+
+        <video width="600" poster="thumb.jpg" controls autoplay>
+
+            <source src="VIDEO/4688bce79d2142ae8007fe5e57cf680e.mp4" >
+
+            
+            
+
+        </video> 
+
+
+
+
+
+      <br>
+        <a class="cor_1" href="rodape.html">Ir para o rodape </a> <br>
+        <a   id="cor_2" href="#">Ir para o rodape </a> <br>
+        <a href="#">Ir represao </a> <br>
+        <a href="#">Ir para o rodape </a> <br>
+
+
+
+
+</body>
+
+
+ 
+
+</html>

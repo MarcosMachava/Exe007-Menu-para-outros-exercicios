@@ -1,0 +1,38 @@
+
+
+
+
+a{
+  color: rgb(000,000 ,000);
+  font-size: 24px;
+}
+
+.cor{
+
+    color: green;
+    background-color: darkgray;
+    
+}
+
+.cor_1{
+
+    color: green;
+
+}
+
+.cor_1:hover{
+    color: blue;
+
+}
+.cor_1::first-letter{
+    color: black;
+}
+
+
+
+
+#cor_2{
+
+    color: red;
+}
+
